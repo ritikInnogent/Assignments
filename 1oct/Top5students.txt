@@ -1,0 +1,5 @@
+Student{id=1, name='harshit', classId=1, marks=95, gender='M', age=18, result='Pass', rank=1}
+Student{id=2, name='Tanishq', classId=2, marks=88, gender='F', age=19, result='Pass', rank=2}
+Student{id=6, name='Mona', classId=2, marks=82, gender='F', age=19, result='Pass', rank=3}
+Student{id=5, name='ritik', classId=1, marks=76, gender='M', age=18, result='Pass', rank=4}
+Student{id=3, name='anurag', classId=1, marks=60, gender='M', age=17, result='Pass', rank=5}

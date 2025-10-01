@@ -1,0 +1,6 @@
+Address{id=1, pinCode='452001', city='Indore', studentId=1}
+Address{id=2, pinCode='452002', city='Indore', studentId=2}
+Address{id=3, pinCode='486881', city='Rewa', studentId=3}
+Address{id=4, pinCode='452003', city='Indore', studentId=4}
+Address{id=5, pinCode='482001', city='Jabalpur', studentId=5}
+Address{id=6, pinCode='452004', city='Indore', studentId=6}
