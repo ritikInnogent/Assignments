@@ -1,0 +1,30 @@
+Requirement Analysis
+Collaborate with stakeholders to gather and analyze software requirements.
+Translate business needs into technical specifications.
+Software Design
+Design system architecture and data models.
+Create technical documentation and diagrams (e.g., UML, flowcharts).
+Software Development
+Write clean, scalable, and efficient code.
+Develop and implement new software programs, features, or systems.
+Testing and Debugging
+Conduct unit and integration testing.
+Identify and resolve bugs, performance issues, and security vulnerabilities.
+Version Control and Documentation
+Use version control systems (e.g., Git) to manage code changes.
+Maintain detailed documentation for code, APIs, and development processes.
+Maintenance and Support
+Monitor applications and systems in production.
+Provide technical support and fix issues post-deployment.
+Code Review and Collaboration
+Participate in peer code reviews to ensure code quality and standards.
+Work closely with other developers, designers, QA engineers, and product managers.
+Continuous Learning
+Stay updated with emerging technologies, programming languages, and industry trends.
+Participate in training, workshops, and conferences.
+Deployment and Integration
+Assist with CI/CD pipeline setup and deployments.
+Integrate third-party services and APIs.
+Security and Compliance
+Follow secure coding practices.
+Ensure software complies with legal and regulatory standards (e.g., GDPR, HIPAA).

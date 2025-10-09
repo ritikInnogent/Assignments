@@ -1,0 +1,32 @@
+Java Multithreading Tasks 
+1. Producer–Consumer Problem (Using wait/notify) (I have already assigned this task during 
+the session.) 
+Concepts Covered: Inter-thread communication, synchronization, wait/notify mechanism. 
+Build a simple producer-consumer system where a producer thread adds items to a shared 
+buffer (like a List or Queue), and a consumer thread removes and processes them. If the 
+buffer is full, the producer waits; if empty, the consumer waits. Use wait() and notify() for 
+coordination. 
+2. Deadlock Simulation and Prevention 
+Concepts Covered: Synchronization, deadlock, ReentrantLock, and lock ordering. 
+Simulate a deadlock scenario where Thread A locks Resource1 then tries to lock Resource2, 
+and Thread B locks Resource2 then tries to lock Resource1. Fix it using consistent lock 
+acquisition order or tryLock() with a timeout. 
+3. Thread Coordination with CountDownLatch 
+Concepts Covered: Thread synchronization, one-time event coordination. 
+Create a simulation where multiple worker threads perform initialization tasks (like loading 
+configuration or connecting to databases), and the main thread waits until all are finished 
+using CountDownLatch. 
+Learning Goal: Learn how a main thread can wait for multiple threads to complete tasks 
+before continuing. 
+4. Using ExecutorService and Callable 
+Concepts Covered: Thread pools, task submission, return values from threads. 
+Write a Java program that uses an ExecutorService with a fixed-size thread pool to count 
+the total number of lines across all text files in a specific directory. Each file should be 
+processed by a separate Callable task that reads the file, counts its lines, and returns the 
+count. Use Future objects to collect the results from all tasks, handle any I/O exceptions 
+properly, and finally display the total number of lines from all files before shutting down the 
+thread pool. 
+5. ReadWriteLock for Shared Resource Access 
+Concepts Covered: Concurrency control, ReadWriteLock, multiple readers/single writer 
+problem. 
+Simulate a shared configuration object where multiple threads read data simultaneously, 
