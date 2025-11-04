@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #a9caff 0%, #ffcccc 60%, #62ff5a 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Center the app box */
+.app {
+  max-width: 430px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 5px 24px rgba(16, 112, 196, 0.12), 0 1.5px 16px rgba(0,0,0,0.05);
+  padding: 40px 28px 32px 28px;
+  text-align: center;
+  position: relative;
+}
+
+/* Heading styles */
+h1 {
+  color: #176B87;
+  text-align: center;
+  background: linear-gradient(90deg, #374ABE 25%, #64B6FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 26px;
+}
+
+/* Input styles */
+input[type="text"] {
+  padding: 9px 16px;
+  border: 1.8px solid #39a2db;
+  border-radius: 5px;
+  font-size: 18px;
+  min-width: 60%;
+  margin-bottom: 8px;
+  transition: border 0.2s;
+  box-shadow: #2451e6;
+}
+input[type="text"]:focus {
+  outline: none;
+  border-color: #005c97;
+}
+
+/* Default button style */
+button {
+  padding: 8px 18px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 12px rgba(52,144,220,0.05);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+/* Edit Button: Green Gradient */
+button.edit {
+  background: linear-gradient(90deg, #0be881 10%, #256e00 90%);
+  color: #094c1b;
+  border: 1.5px solid #0be881;
+   margin-left: 80px;
+}
+button.edit:hover {
+  background: linear-gradient(90deg, #4be672 10%, #256e00 90%);
+  color: #fff;
+  border-color: #05dfd7;
+}
+
+/* Delete Button: Red Gradient */
+button.delete {
+  background: linear-gradient(90deg, #ff9595 5%, #e20000 95%);
+  color: #611212;
+  border: 1.5px solid #ff5858;
+ 
+}
+button.delete:hover {
+  background: linear-gradient(90deg, #ff8585 5%, #d10000 95%);
+  color: #fff;
+  border-color: #f09819;
+}
+
+/* Add-Task / Default button */
+button:not(.edit):not(.delete) {
+  background: linear-gradient(90deg, #2563EB 8%, #60a5fa 92%);
+  color: white;
+  border: 1.5px solid #2563EB;
+}
+button:not(.edit):not(.delete):hover {
+  background: linear-gradient(90deg, #2451e6 8%, #88c2fc 92%);
+}
+
+/* Task List styles */
+ul {
+  max-width: 400px;
+  margin: 20px auto 0 auto;
+  padding: 0;
+}
+
+.list {
+  background: rgba(25, 146, 219, 0.11);
+  margin-bottom: 14px;
+  padding: 13px 18px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 500;
+  box-shadow: 0 1.5px 10px rgba(25,146,219,0.10);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+  border-left: 5px solid #176B87;
+}
+.list:hover {
+  background: linear-gradient(90deg, #f4fafe 60%, #d9e7fa 99%);
+  box-shadow: 0 4px 18px rgba(25,146,219,0.15);
+  transform: translateY(-2px) scale(1.01);
+}
+
+hr {
+  max-width: 410px;
+  border: 0;
+  border-top: 2px solid #aacbee;
+  margin: 18px auto;
+}
